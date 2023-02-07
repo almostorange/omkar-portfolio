@@ -1,0 +1,55 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 20px 10px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav {
+  gap: 5px;
+}
+
+/*SITE NAVIGATOR*/
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 22px;
+}
+
+/*SITE HEADER*/
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-screen {
+  display: inline-block;
+}
+
+/*DETAILS ABOUT ME*/
+.details-about-me {
+  display: flex;
+  gap: 10px;
+}
+
+.face-and-writeup {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-basis: 300px;
+}
