@@ -1,55 +1,132 @@
+/*OVERALL DECORATION------------------------------*/
+
 * {
-  font-family: sans-serif;
   margin: 0;
-  background-color: #f7f7f7;
-  box-sizing: border-box;
-  color: #3e3e3e;
-  margin-bottom: 10px;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ececec;
+  color: #3b3b3b;
 }
 
 .container {
-  margin: 20px 10px;
-  display: inline-block;
-}
-
-h1 {
-  font-size: 24px;
-}
-
-nav {
-  gap: 5px;
-}
-
-/*SITE NAVIGATOR*/
-
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 22px;
+  display: block;
+  margin: 20px 20px;
 }
 
 /*SITE HEADER*/
 
-.site-header {
+.logo-and-nav {
   display: flex;
+  justify-content: flex-start;
+  gap: 200px;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.landing-screen {
-  display: inline-block;
-}
-
-/*DETAILS ABOUT ME*/
-.details-about-me {
+.header-nav {
   display: flex;
+  gap: 20px;
+}
+
+/*HOOK & NAVIGATION------------------------------*/
+
+.profile-summary {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.hook {
+  font-size: 42px;
+  display: flex;
+  flex: 0 1 100px;
+}
+
+.button-hub {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttons-top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.buttons-bottom {
+  display: flex;
+  justify-content: flex-start;
   gap: 10px;
 }
 
-.face-and-writeup {
+/*ABOUT ME SECTION--------------------------------*/
+
+.details-headline {
+  font-size: 25px;
+  margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-basis: 300px;
+}
+
+.sub-details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.about-me-text-and-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 600px;
+  gap: 70px;
+}
+
+.about-me-text {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.download-button-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.download-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/*SKILLS SECTION----------------------------------*/
+
+.skills-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.skills-1 {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: flex-start;
+  gap: 70px;
+}
+
+.skills-2 {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: flex-start;
+  gap: 70px;
 }
