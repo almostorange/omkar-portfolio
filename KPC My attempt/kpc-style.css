@@ -1,0 +1,234 @@
+/* GENERAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #343a40;
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #ffc4c410;
+}
+
+.container-whole {
+  width: 1200px;
+}
+
+/* NAVIGATION */
+nav {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b2d42;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 24px 0;
+  text-align: center;
+  border-bottom: 4px solid #a5041f5b;
+}
+
+.navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item:link {
+  text-decoration: none;
+  color: #2b2d42;
+}
+
+/*HEADER  */
+
+header {
+  height: 80vh;
+  /* background-color: aqua; */
+}
+
+.header-container {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  gap: 128px;
+  /* background-color: bisque; */
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+}
+
+.header-main-text {
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: #2b2d42;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-explainer-text {
+  line-height: 1.6;
+  margin-bottom: 48px;
+  color: #2b2d42;
+}
+
+/* HEADER BUTTONS */
+
+.btn-hub {
+  display: flex;
+  gap: 24px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 16px 32px;
+  border: 1px solid #a5041f;
+  border-radius: 12px;
+  background-color: #a5041f;
+  color: #edf2f4;
+  margin-bottom: 24px;
+}
+
+.btn:hover,
+.btn:active {
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 16px 32px;
+  border: 1px solid #ef233c;
+  border-radius: 12px;
+  background-color: #ef233c;
+  color: #edf2f4;
+  margin-bottom: 24px;
+}
+
+/* IMAGE */
+
+img {
+  display: flex;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: -60px 60px 0px #a5041f5b;
+}
+
+/* KPC PROCESS SECTION ---------------------------------*/
+
+/* Section headline */
+.section-headline-unit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 22px;
+}
+
+.section-headline-decoration {
+  padding: 0px 10px;
+  background-color: #a5041f;
+  padding-bottom: 42px;
+}
+
+.deco-1,
+.deco-2,
+.deco-3 {
+  padding: 0px 18px;
+  background-color: #a5041f;
+}
+
+.section-headline {
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #fff4f5;
+  text-transform: uppercase;
+  background-color: #a5041f;
+  margin-bottom: 24px;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: 1fr 36px 1fr 36px 1fr 36px 1fr;
+  align-items: center;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.process-unit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 250px;
+  width: 250px;
+  padding: 12px 24px;
+  font-family: sans-serif;
+  background-color: #a5041f;
+  color: #ffffffb4;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0px 12px 12px #5f5e5e3a;
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.process-step {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway";
+  padding: 8px 16px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  background-color: #d3c3c5;
+  color: #2b2d42;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.process-icon {
+  height: 36px;
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #fff4f5cb;
+  margin-bottom: 12px;
+  font-family: "Raleway";
+}
+
+.process-headline {
+  text-align: left;
+}
+.process-text {
+  text-align: left;
+}
+
+.step-arrow {
+  display: inline-block;
+  height: 36px;
+  stroke: #a5041f;
+}
+/* Website Colors */
+
+/* #a5041f
+ #fff4f5cb
+#2b2d42 */ ;
