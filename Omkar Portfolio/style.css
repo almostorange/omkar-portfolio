@@ -1,0 +1,181 @@
+/*OVERALL DECORATION------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #ececec;
+  color: #3b3b3b;
+}
+
+.container {
+  display: block;
+  margin: 20px 20px;
+}
+
+/*SITE HEADER-------------------------------------*/
+
+.logo-and-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 200px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+/*HOOK & NAVIGATION------------------------------*/
+
+.profile-summary {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: aquamarine;
+}
+
+.hook-parent {
+  padding: 80px 0;
+  background-color: aqua;
+}
+.hook {
+  font-size: 42px;
+  display: flex;
+}
+
+.button-hub {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  background-color: aqua;
+}
+
+.buttons-top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 112px;
+  flex: 0 1 10%;
+}
+.buttons-bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 131px;
+  flex: 0 1 10%;
+}
+
+.button-unit {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  align-items: center;
+  justify-content: baseline;
+  /* border: 2px solid red; */
+}
+
+/*ABOUT ME SECTION--------------------------------*/
+
+.details-headline {
+  font-size: 25px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.sub-details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.about-me-text-and-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 0 1 45%;
+  gap: 30px;
+}
+
+.about-me-text {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.download-button-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.download-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 14px;
+}
+
+/*SKILLS SECTION FLEXBOX----------------------------------
+
+.skills-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: aquamarine;
+}
+
+.skills-1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+ border: 2px solid red;
+}
+
+.skills-2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+  border: 2px solid red;
+}
+
+.skill-text {
+  border: 2px solid red;
+  display: flex;
+  flex: 0 1 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+*/
+
+/*SKILLS SECTION GRID*/
+
+.skills-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+  height: 100px;
+}
+
+.skill-text {
+  /* border: 2px solid red; */
+  display: grid;
+  /* flex: 0 1 25%; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px; */
+}
